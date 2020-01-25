@@ -7,6 +7,6 @@ describe Post do
   end
 
   if 'has a summary' do
-    
+    post = Post.create!(title: "My title", description: "The post description")
   end
 end
