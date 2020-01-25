@@ -6,5 +6,7 @@ describe Post do
     expect(post).to be_valid
   end
 
-  
+  if 'has a summary' do
+    
+  end
 end
